@@ -1,6 +1,6 @@
 {
   "name": "react-datas-list-table-hrnet",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A customizable React component library for rendering sortable and paginated tables.",
   "main": "dist/index.js",
   "scripts": {
