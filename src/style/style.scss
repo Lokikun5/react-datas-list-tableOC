@@ -1,0 +1,98 @@
+$baseColor: #444444;
+
+h1{
+  font-size: 3em;
+}
+
+.base-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.base-flex-col{
+  @extend .base-flex;
+  flex-direction:column;
+}
+.base-flex-between{
+  @extend .base-flex;
+  justify-content: space-between!important;
+}
+.base-flex-end{
+  @extend  .base-flex;
+  justify-content: end;
+}
+
+.gap{
+  gap: 20px;
+}
+.gap2{
+  gap: 50px;
+}
+
+.mt-1{
+  margin-top: 10px;
+}
+.w-full{
+  width: 100%;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.gap-header{
+  gap: 200px;
+}
+.gap-table1{
+  gap: 10px;
+}
+
+$color-ascending: blue;
+$color-descending: red;
+$color-neutral: gray;
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  th{
+    cursor: pointer;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+  }
+
+  th.sortable span {
+    display: inline-block;
+    margin-left: 5px;
+
+  }
+
+  .arrow {
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+
+    &.ascending {
+      color: $color-ascending;
+    }
+
+    &.descending {
+      color: $color-descending;
+    }
+
+    &.neutral {
+      color: $color-neutral;
+    }
+  }
+
+
+}
+
+.mx {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
