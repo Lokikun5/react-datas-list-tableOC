@@ -7,7 +7,7 @@ import { reorderSort } from "../utils/reorder";
 import { searchItems } from "../utils/search";
 import "../style/style.scss";
 
-function DatasListTable({items,columnConfigs, initialSortKey = 'defaultKey',
+function DataListTable({items,columnConfigs, initialSortKey = 'defaultKey',
                             initialSortDirection = 'ascending',
                             initialPageSize = 10 }) {
 
@@ -61,4 +61,4 @@ function DatasListTable({items,columnConfigs, initialSortKey = 'defaultKey',
     );
 }
 
-export default DatasListTable;
+export default DataListTable;

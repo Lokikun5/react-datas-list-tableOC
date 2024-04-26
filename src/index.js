@@ -1,3 +1,3 @@
-import DatasListTable from './components/DatasListTable';
+import DataListTable from './components/DataListTable';
 
-export default DatasListTable;
+export default DataListTable;

@@ -22,7 +22,7 @@ To use react-datas-list-table-hrnet in your project, import the component and pa
 
 ```jsx
 import React from 'react';
-import DatasListTable from 'react-datas-list-table-hrnet';
+import DataListTable from 'react-datas-list-table-hrnet';
 
 function App() {
     const items = [
@@ -41,7 +41,7 @@ function App() {
     ];
 
     return (
-        <DatasListTable items={items} columnConfigs={columnConfigs} />
+        <DataListTable items={items} columnConfigs={columnConfigs} />
     );
 }
 
@@ -56,10 +56,10 @@ export default App;
   
 ## Example
 
-Here is an example of how to use DatasListTable with dynamic data fetched from an API and custom configuration:
+Here is an example of how to use DataListTable with dynamic data fetched from an API and custom configuration:
 ```jsx
 import React, { useEffect, useState } from 'react';
-import DatasListTable from 'react-datas-list-table-hrnet';
+import DataListTable from 'react-datas-list-table-hrnet';
 import axios from 'axios';
 
 function EmployeeTable() {
@@ -84,7 +84,7 @@ function EmployeeTable() {
     ];
 
     return (
-        <DatasListTable items={employees} columnConfigs={columnConfigs} />
+        <DataListTable items={employees} columnConfigs={columnConfigs} />
     );
 }
 
