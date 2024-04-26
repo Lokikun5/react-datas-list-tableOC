@@ -1,4 +1,4 @@
-# react-datas-list-table-hrnet
+# react-data-list-table-hrnet
 
 A customizable React component library for rendering sortable and paginated tables, designed for ease of integration and extensive customization.
 
